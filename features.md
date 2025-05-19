@@ -1,4 +1,4 @@
-# Enhanced Language Learning PWA Features
+# Features
 
 - **Local Video Processing**:
   - Transcribes audio from local video files (e.g., MP4) or webcam without uploading.
