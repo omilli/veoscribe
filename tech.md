@@ -17,19 +17,10 @@ This Progressive Web App (PWA) enables real-time transcription of local video fi
 - **NestJS**: Structured framework for GraphQL and WebSocket endpoints.
 - **Apollo Server**: GraphQL server for data management.
 - **MongoDB**: NoSQL database for user profiles, Bucket sync, and learning progress.
-- **Socket.IO**: Real-time communication for transcripts and AI responses.
 
 ### External Services
 - **Deepgram** (Paid): Cloud-based speech-to-text API (<300 ms latency).
 - **Grok API** (Paid): Cloud-based AI for word explanations and learning content.
-
-## Setup Instructions
-### Prerequisites
-- **Bun**: Latest version (`curl -fsSL https://bun.sh/install | bash`).
-- **MongoDB**: Local (v6+) or cloud-hosted (e.g., MongoDB Atlas).
-- **GraphQL**: Apollo Server for GraphQL API.
-- **Deepgram API Key**: From Deepgram Console.
-- **Grok API Key**: From xAI (https://x.ai/api).
 
 ## Functionality
 ### Frontend (SolidJS + Vite)
