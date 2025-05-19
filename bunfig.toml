@@ -1,0 +1,6 @@
+[package]
+name = "language-learning-pwa"
+version = "1.0.0"
+
+[workspaces]
+packages = ["packages/*"]

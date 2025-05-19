@@ -1,0 +1,20 @@
+{
+  "name": "veoscribe",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "client:dev": "bun --filter client run dev",
+    "server:dev": "bun --filter server run start:dev",
+    "build": "bun --filter client run build && bun --filter server run build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
