@@ -6,6 +6,7 @@ This Progressive Web App (PWA) enables real-time transcription of local video fi
 ### Frontend
 - **SolidJS**: Reactive framework for performant UI rendering.
 - **Vite**: Build tool for fast development and PWA setup.
+- **Ark UI**: Component library for UI elements.
 - **JavaScript (Browser APIs)**:
   - WebRTC: Streams audio from local video/webcam to Deepgram.
   - MediaStream API: Captures audio from `<video>` element.
